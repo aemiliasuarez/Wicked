@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'OpenSauceSans-Regular';
+    src: url('OpenSauceOne-Regular.ttf');
+  }
+
+/* CSS DE LA DECORACIÓN */
+body {
+  font-family: 'OpenSauceSans-Regular', sans-serif;
+  color: white;
+  background: linear-gradient(
+    black 0%,
+    #000000 28%,
+    #3a0f2e 55%,
+    #1f2a10 80%,
+    #2f7a1e 100%
+    );
+  min-height: 100vh;
+}
+
+/* MENÚ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 1px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* DESARROLLO */
+main {
+  padding: 130px;
+}
+
+.personaje {
+  text-align: center;
+  font-weight: normal;
+}
+
+.botones {
+  text-align: center;
+  font-weight: normal;
+}
+
+.inicio {
+  text-align: center;
+  font-size: 30px;
+}
+
+.seccion-contexto {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+#parrafo-contexto {
+  text-align: left;
+  width: 50%;
+}
+
+#imagen-contexto img {
+  text-align: right;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.multimedia {
+  text-align: center;
+  font-size: 30px;
+}
+
+.reparto {
+  text-align: center;
+  font-size: 30px;
+}
+
+.ficha-tecnica {
+  text-align: center;
+  font-size: 30px;
+}
+
+.galeria {
+  text-align: center;
+  font-size: 30px;
+}
